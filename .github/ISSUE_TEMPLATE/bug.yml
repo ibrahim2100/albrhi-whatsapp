@@ -1,0 +1,40 @@
+name: Report a problem
+description: Something does not work, or works differently from what the page says.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks. Please **do not post chats, names or phone numbers.** The report below lists which features ran and which WhatsApp methods were found; look it over before you paste it.
+  - type: input
+    id: whatsapp
+    attributes: {label: WhatsApp version, placeholder: "26.44.72"}
+    validations: {required: true}
+  - type: input
+    id: ios
+    attributes: {label: iOS version and jailbreak, placeholder: "iOS 16.1, roothide (Dopamine / Bootstrap)"}
+    validations: {required: true}
+  - type: input
+    id: package
+    attributes: {label: Albrhi version and package, placeholder: "0.3.0, .roothide"}
+    validations: {required: true}
+  - type: dropdown
+    id: feature
+    attributes:
+      label: Which feature
+      options: [No blue ticks, No typing or recording, No played on voice notes, No seen on statuses, Keep deleted messages, Edited messages, View once, Disappearing messages, Status buttons, Per person or per group, Forwarding, Appear offline, Profiles or settings, The app crashes, Other]
+    validations: {required: true}
+  - type: textarea
+    id: what
+    attributes: {label: What happened, description: "What you did, what you expected, what you saw."}
+    validations: {required: true}
+  - type: textarea
+    id: report
+    attributes: {label: The report, description: "Albrhi › Tools › Copy the report. Paste it here.", render: text}
+  - type: checkboxes
+    id: clean
+    attributes:
+      label: Before sending
+      options:
+        - label: There are no chat names, contact names or phone numbers in what I pasted.
+          required: true
