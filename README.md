@@ -73,7 +73,7 @@ It has been verified in the iOS Simulator (iOS 17 and iOS 26) with a real accoun
 - **It sends nothing of its own.** Albrhi makes no network requests; the only link it opens is one you tap on its About page. What it remembers (kept messages, edit history) stays on your phone.
 - **Free, closed source.** It is free to use under the terms in [LICENSE](LICENSE). The source code is not published.
 - **Risk.** WhatsApp's terms do not allow modified clients, and an account can be restricted for using one. Albrhi never sends anything untrue, but you use it at your own risk. Heavy forwarding (the **∞** button) is the riskiest thing in it, and its switch says so.
-- **Two switches deliberately do something you can undo:** pressing the eye in the status viewer or on a view-once message tells the other side you looked. That is the point of the button.
+- **Two buttons tell the other side you looked, on purpose:** the eye in the status viewer and the eye on a view-once message. Nothing is sent until you press one, and a receipt that has been sent cannot be taken back.
 
 ## Report a problem
 
