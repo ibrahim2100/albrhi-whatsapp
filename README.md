@@ -8,14 +8,14 @@
 </p>
 
 <p align="center">
-  <img alt="version" src="https://img.shields.io/badge/version-0.3.0-2AD078?style=flat-square">
+  <img alt="version" src="https://img.shields.io/badge/version-0.5.0-2AD078?style=flat-square">
   <img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-26.44.72-0B6E3D?style=flat-square">
   <img alt="jailbreak" src="https://img.shields.io/badge/jailbreak-roothide%20%C2%B7%20rootless-14A38B?style=flat-square">
   <img alt="price" src="https://img.shields.io/badge/price-free-2AD078?style=flat-square">
   <img alt="source" src="https://img.shields.io/badge/source-closed-555?style=flat-square">
 </p>
 
-Albrhi only ever **withholds**. It holds back what would leave your phone, or refuses a delete order that arrives. It never sends anything untrue.
+The privacy switches only **withhold**: they hold back what would leave your phone, or refuse a delete order that arrives, and never send anything untrue. The other features are what you choose to turn on; the few that send something or change what the other side sees (scheduled messages, auto-reply, a chosen location) say so on their page.
 Every switch is **off until you turn it on**, and says in one line what it costs.
 
 ---
@@ -50,6 +50,16 @@ Every switch is **off until you turn it on**, and says in one line what it costs
 | 👥 | **Per person, per group** | each privacy switch can apply to everyone, to chosen chats, or to everyone except them; a card on a contact's info page does it for that person | beta |
 | ↪️ | **Forwarding** | hide the “Forwarded” label, and an **∞** button that lifts the five-chat limit | beta |
 | 🌙 | **Appear offline** | the “online” announcement is not sent | experimental |
+| 🗑 | **Deleted statuses are marked** | a deleted status you still have shows a red bin and when it was deleted, beside its time in the viewer | **verified** |
+| ◍ | **Status row in Chats** | everybody's statuses in a row right under the search bar: green ring until you watch, yours first, new on the left, watched at the end; a tap opens WhatsApp's own viewer | **verified** |
+| 👆 | **Chat swipe buttons** | choose the buttons under a swipe on a chat (delete, clear, mute, read, lock, favourite, block, hide, archive, more) in your order; the last runs on a full swipe; WhatsApp asks before delete, clear and block | **verified** |
+| 🎨 | **Themes** | eleven colour themes (Ocean, Royal, Rose, Sunset, Gold, Graphite, Midnight…) and pure black in dark mode, by recolouring WhatsApp's green; not a re-skin: wallpapers and pictures that are green stay | beta |
+| ⏱ | **Seconds in times** | message times, the chat list, the status viewer and more show seconds (9:43:27 AM) | **verified** |
+| 🔐 | **App lock · hidden chats** | Face ID or your passcode to open WhatsApp; chosen chats leave the list and open after Face ID | **verified** |
+| ❓ | **Ask first** | “Call X?”, “Send this sticker?”, “Send this voice message?” before it happens | **verified** |
+| 🧹 | **Hide tabs · clean look** | take Updates, Calls or Communities out of the bottom bar; no floating Meta AI button; the search bar says “Search” | **verified** |
+| 🗓 | **Scheduled messages · auto-reply** | write now and send at a time you pick (WhatsApp must be running); an auto-reply for chats you choose. They send real messages from your account: try them on a chat you control | scheduled: **verified** · auto-reply: beta |
+| 📍 | **Fake location · HD photos · stay alive · delivery ticks · backup** | pick the place “Send my location” reads (the other side sees it); send photos at full quality; keep WhatsApp running in the background (battery); hold back the delivery tick; back up and restore your settings | beta |
 | ⚙️ | **Profiles** | *Ghost*, *Quiet* and *Keeper* set the switches in one go | works |
 | 🔎 | **Search** | find any switch by its words, in Arabic or English | works |
 
@@ -70,9 +80,9 @@ It has been verified in the iOS Simulator (iOS 17 and iOS 26) with a real accoun
 
 ## Good to know
 
-- **It sends nothing of its own.** Albrhi makes no network requests; the only link it opens is one you tap on its About page. What it remembers (kept messages, edit history) stays on your phone.
+- **It sends nothing of its own.** Albrhi makes no network requests; the only link it opens is one you tap on its About page. (Scheduled messages and auto-replies are sent by WhatsApp itself, only if you set them up.) What it remembers (kept messages, edit history) stays on your phone.
 - **Free, closed source.** It is free to use under the terms in [LICENSE](LICENSE). The source code is not published.
-- **Risk.** WhatsApp's terms do not allow modified clients, and an account can be restricted for using one. Albrhi never sends anything untrue, but you use it at your own risk. Heavy forwarding (the **∞** button) is the riskiest thing in it, and its switch says so.
+- **Risk.** WhatsApp's terms do not allow modified clients, and an account can be restricted for using one. The privacy switches never send anything untrue, but you use Albrhi at your own risk. Heavy forwarding (the **∞** button) is the riskiest thing in it, and its switch says so.
 - **Two buttons tell the other side you looked, on purpose:** the eye in the status viewer and the eye on a view-once message. Nothing is sent until you press one, and a receipt that has been sent cannot be taken back.
 
 ## Report a problem
@@ -82,7 +92,7 @@ Please do **not** post chats, names or phone numbers.
 
 ## بالعربي
 
-**البرهي للواتساب** أداة لجوالات الجيلبريك تمنع فقط: تمسك اللي كان بيطلع من جوالك (الصحّين الزرق، «يكتب…»، «تم التشغيل» للرسائل الصوتية، «شوهدت» للحالات)، وترفض أمر حذف يوصل جوالك فتبقى الرسالة المحذوفة مع سلّة حمراء صغيرة. ما ترسل شي غير صحيح أبداً، وكل مفتاح مطفي لين تشغّله ويقول لك سطر واحد وش ثمنه.
+**البرهي للواتساب** أداة لجوالات الجيلبريك تمنع فقط: تمسك اللي كان بيطلع من جوالك (الصحّين الزرق، «يكتب…»، «تم التشغيل» للرسائل الصوتية، «شوهدت» للحالات)، وترفض أمر حذف يوصل جوالك فتبقى الرسالة المحذوفة مع سلّة حمراء صغيرة. مفاتيح الخصوصية ما ترسل شي غير صحيح أبداً، وباقي المزايا تشغّلها بنفسك واللي يرسل شي منها (الرسائل المجدولة، الرد التلقائي، الموقع الوهمي) يقول لك في صفحته. وكل مفتاح مطفي لين تشغّله ويقول لك سطر واحد وش ثمنه.
 
 **التثبيت:** أضف المصدر `https://ibrahim2100.github.io/albrhi-repo/` في Sileo أو Zebra، ثم ثبّت «Albrhi for WhatsApp» (حزمة `.roothide` للـroothide، والثانية للـrootless). الإعدادات في بطاقة أعلى تبويب «أنت» داخل واتساب. الواجهة بالعربي أو الإنجليزي من الإعدادات › اللغة.
 
