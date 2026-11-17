@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.1 — 2026-11-17
+
+- **Hides the jailbreak check:** WhatsApp has its own checks for a jailbroken phone (the Cydia link test, MobileSubstrate, injected libraries, tweak and Frida library names). Albrhi now answers each one as an unmodified phone would, so the account is not flagged for the phone it runs on. It only answers those checks; it changes nothing else and has no switch.
+
 ## 0.5.0 — 2026-11-17
 
 - **Status row in Chats:** everybody's statuses in a row right under the search bar. A green ring until you watch one, yours first, new ones on the left and watched ones at the end; a tap opens WhatsApp's own viewer.

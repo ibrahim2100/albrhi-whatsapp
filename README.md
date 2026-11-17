@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img alt="version" src="https://img.shields.io/badge/version-0.5.0-2AD078?style=flat-square">
+  <img alt="version" src="https://img.shields.io/badge/version-0.5.1-2AD078?style=flat-square">
   <img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-26.44.72-0B6E3D?style=flat-square">
   <img alt="jailbreak" src="https://img.shields.io/badge/jailbreak-roothide%20%C2%B7%20rootless-14A38B?style=flat-square">
   <img alt="price" src="https://img.shields.io/badge/price-free-2AD078?style=flat-square">
